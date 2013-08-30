@@ -13,7 +13,9 @@
         android:id="@+id/btn_switch"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_above="@+id/admob"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:clickable="true"
         android:contentDescription="@string/switch_desc"
@@ -21,4 +23,16 @@
         android:scaleType="fitXY"
         android:src="@drawable/switch_off" />
 
+	<com.google.ads.AdView
+	    xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+	    android:id="@+id/admob"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:gravity="bottom|center_horizontal"
+	    googleads:adSize="BANNER"
+	    googleads:adUnitId="@string/admob_id" />
+	
 </RelativeLayout>
