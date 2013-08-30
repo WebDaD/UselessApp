@@ -1,4 +1,4 @@
-package webdad.apps.uselessapp;
+package webdad.apps.uselessappgold;
 
 import android.app.Activity;
 import android.content.Context;
@@ -53,19 +53,19 @@ public class MainActivity extends Activity {
 	
 	Runnable swapImageOn = new Runnable() {
 	    public void run() {
-	    	img.setImageResource(R.drawable.switch_on);
+	    	img.setImageResource(R.drawable.switch_on_gold);
 	    }
 	};
 	
 	Runnable swapImageOff = new Runnable() {
 	    public void run() {
-	    	img.setImageResource(R.drawable.switch_off);
+	    	img.setImageResource(R.drawable.switch_off_gold);
 	    }
 	};
 	private void play_click(){
 		MediaPlayer m = new MediaPlayer();
 		   try{
-		       AssetFileDescriptor descriptor = this.getAssets().openFd("button-50.mp3");
+		       AssetFileDescriptor descriptor = this.getAssets().openFd("cash-register2.mp3");
 		       m.setDataSource(descriptor.getFileDescriptor(), descriptor.getStartOffset(), descriptor.getLength() );
 		       descriptor.close();
 		       m.prepare();

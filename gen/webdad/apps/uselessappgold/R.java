@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package webdad.apps.uselessapp;
+package webdad.apps.uselessappgold;
 
 public final class R {
     public static final class attr {
@@ -33,8 +33,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int switch_off=0x7f020001;
-        public static final int switch_on=0x7f020002;
+        public static final int switch_off_gold=0x7f020001;
+        public static final int switch_on_gold=0x7f020002;
     }
     public static final class id {
         public static final int action_settings=0x7f090001;
@@ -92,8 +92,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle webdad.apps.uselessapp:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle webdad.apps.uselessapp:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle webdad.apps.uselessappgold:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle webdad.apps.uselessappgold:buttonBarStyle}</code></td><td></td></tr>
            </table>
            @see #ButtonBarContainerTheme_buttonBarButtonStyle
            @see #ButtonBarContainerTheme_buttonBarStyle
@@ -102,23 +102,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010000, 0x7f010001
         };
         /**
-          <p>This symbol is the offset where the {@link webdad.apps.uselessapp.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link webdad.apps.uselessappgold.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name webdad.apps.uselessapp:buttonBarButtonStyle
+          @attr name webdad.apps.uselessappgold:buttonBarButtonStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link webdad.apps.uselessapp.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link webdad.apps.uselessappgold.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name webdad.apps.uselessapp:buttonBarStyle
+          @attr name webdad.apps.uselessappgold:buttonBarStyle
         */
         public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
     };
