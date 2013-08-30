@@ -19,6 +19,6 @@
         android:contentDescription="@string/switch_desc"
         android:onClick="btn_switch_onclick"
         android:scaleType="fitXY"
-        android:src="@drawable/switch_off" />
+        android:src="@drawable/switch_off_gold" />
 
 </RelativeLayout>
